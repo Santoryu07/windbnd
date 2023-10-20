@@ -1,0 +1,68 @@
+#rooty {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    margin: 20px 0px;
+    justify-content: center;
+    align-items: center;    
+    
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cardImg {
+    height: 70%;
+    width: 100%;
+}
+
+.cardImg  > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover ;
+}
+/* .card-img-top {
+    border-radius: 15px;
+    height: 20rem;
+}
+
+.card-body {
+    padding: 8px 0px;
+}
+
+.card-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    color: gray;
+    font-family: 'Mulish', sans-serif;
+    height: 30px;
+    align-items: center;
+}
+
+.card-text p {
+    margin: 0;
+}
+
+.sub-card span {
+    font-size: 18px;
+    color: orangered;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.sub-card {
+    display: flex;
+} */
